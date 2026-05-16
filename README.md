@@ -1,86 +1,95 @@
-# ADK Day Trip Planning Agent
+# 🚀 ADK Day Trip Planning Agent
 
-A specialized AI agent built with Google's AI Development Kit (ADK) that generates creative and fun day trip plans based on user preferences, location, and budget constraints.
+<div align="center">
 
-**Please make sure to check [goo.gle/advancedadk](https://goo.gle/advancedadk) to set up this project.**
+[![Hugging Face](https://img.shields.io/badge/🤗-Live%20Demo-FFD21E?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/Payal3112/adk-trip-agent)
+[![Google Cloud](https://img.shields.io/badge/☁️-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud)](https://adk-agent-493484130806.us-central1.run.app/list-apps)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT- green?style=for-the-badge)](LICENSE)
 
-## Features
+**A production-ready AI travel planner built with Google's Agent Development Kit (ADK)**
+**Live 24/7 | No installation required | Completely free**
 
-- 🎯 **Personalized Planning**: Generates trip suggestions based on user interests and preferences
-- 📍 **Location-Aware**: Works with city names, addresses, or GPS coordinates
-- 💰 **Budget-Conscious**: Targets moderate budget activities (affordable yet valuable)
-- 🔍 **Real-Time Search**: Uses Google Search to find current events and venues
-- 📅 **Date-Specific**: Plans activities for specific weekend dates
-- 🎨 **Creative Suggestions**: Maximum 3 distinct activities per plan with detailed location information
+</div>
 
-## Tutorial
+---
 
-For a guided walkthrough of how to set up this project, please refer to the [tutorial](https://goo.gle/advancedadk).
+## 🌐 **Try It Now**
 
-## Prerequisites
+### **[👉 Click Here to Use the Live Agent 👈](https://huggingface.co/spaces/Payal3112/adk-trip-agent)**
 
-- Python 3.8 or higher
-- Google Cloud SDK installed and authenticated (`gcloud auth login`)
+| Platform | URL | Status |
+|----------|-----|--------|
+| **Hugging Face Spaces** | `https://huggingface.co/spaces/Payal3112/adk-trip-agent` | 🟢 Live |
+| **Google Cloud Run API** | `https://adk-agent-493484130806.us-central1.run.app/list-apps` | 🟢 Live |
 
-## Quick Setup
+---
 
-This project uses a setup script to configure the environment automatically. Simply run the script for your operating system.
+## 📋 **Overview**
 
-### For Mac/Linux Users
+The **ADK Day Trip Planning Agent** is a sophisticated multi-agent system that creates personalized, full-day itineraries based on user preferences, location, and budget constraints. Built with Google's Agent Development Kit and powered by Gemini AI, it delivers real-time, actionable travel recommendations.
 
-```bash
-chmod +x setup_venv.sh
-./setup_venv.sh
-```
+### Key Capabilities
 
-### For Windows Users
+| Capability | Description |
+|------------|-------------|
+| 🎯 **Personalized Planning** | Adapts to mood, interests, and activity preferences |
+| 🌍 **Global Coverage** | Works with any city, landmark, or coordinates |
+| 💰 **Budget Optimization** | Respects financial constraints (budget/moderate/luxury) |
+| 🔍 **Real-Time Intelligence** | Integrates Google Search for current events, hours, and prices |
+| 🧠 **Conversational Memory** | Remembers feedback and adapts plans dynamically |
+| ⚡ **11 Specialized Agents** | Task-specific agents for routing, looping, sequencing, and more |
 
-```cmd
-setup_venv.bat
-```
+---
 
-### What the Script Does
+## 🤖 **Agent Architecture**
 
-The setup script will:
+<table>
+<tr>
+<th width="33%">Agent</th>
+<th width="33%">Purpose</th>
+<th width="33%">Best For</th>
+</tr>
+<tr>
+<td><code>a_single_agent</code></td>
+<td>Single-session trip planning</td>
+<td>Quick day trip recommendations</td>
+</tr>
+<tr>
+<td><code>b1_sequential_agent</code></td>
+<td>Multi-day sequential planning</td>
+<td>Extended vacation itineraries</td>
+</tr>
+<tr>
+<td><code>b2_parallel_agent</code></td>
+<td>Parallel activity generation</td>
+<td>Multiple simultaneous suggestions</td>
+</tr>
+<tr>
+<td><code>b3_loop_agent</code></td>
+<td>Iterative refinement</td>
+<td>Feedback-driven plan adjustments</td>
+</tr>
+<tr>
+<td><code>d_routing_agent</code></td>
+<td>Smart route optimization</td>
+<td>Logistics and travel between stops</td>
+</tr>
+<tr>
+<td><code>e_agent_as_tool</code></td>
+<td>Specialist delegation</td>
+<td>Complex, multi-domain requests</td>
+</tr>
+<tr>
+<td><code>f_agent_with_memory</code></td>
+<td>Long-term conversation context</td>
+<td>Ongoing trip planning conversations</td>
+</tr>
+</table>
 
-1.  **Check for Python**: Ensures you have Python 3.8 or higher.
-2.  **Create a Virtual Environment**: Sets up a dedicated `.adk_env` directory.
-3.  **Install Dependencies**: Installs the required Python packages from `requirements.txt`.
-4.  **Prompt for Project ID**: Asks for your Google Cloud Project ID.
-5.  **Create `.env` File**: Generates a `.env` file in the root directory with the following configuration:
+---
 
-    ```env
-    GOOGLE_GENAI_USE_VERTEXAI=TRUE
-    GOOGLE_CLOUD_PROJECT=your_project_id
-    GOOGLE_CLOUD_LOCATION=us-central1
-    ```
+## 💬 **Example Queries**
 
-## Running the Agent
-
-After the setup is complete:
-
-1.  **Activate the virtual environment**:
-
-    **Mac/Linux:**
-    ```bash
-    source .adk_env/bin/activate
-    ```
-
-    **Windows:**
-    ```cmd
-    .adk_env\Scripts\activate
-    ```
-
-2.  **Run the ADK web interface**:
-
-    ```bash
-    adk web
-    ```
-
-## Deactivating the Environment
-
-When you're done, you can deactivate the virtual environment:
-
-```bash
-deactivate
-```
+<details>
+<summary><b>🍽️ Restaurant Recommendations</b></summary>
