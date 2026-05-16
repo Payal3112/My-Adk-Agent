@@ -4,8 +4,9 @@
 
 [![Hugging Face](https://img.shields.io/badge/🤗-Live%20Demo-FFD21E?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/Payal3112/adk-trip-agent)
 [![Google Cloud](https://img.shields.io/badge/☁️-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud)](https://adk-agent-493484130806.us-central1.run.app/list-apps)
+
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT- green?style=for-the-badge)](LICENSE)
+<img width="1917" height="885" alt="image" src="https://github.com/user-attachments/assets/cc306890-31ed-47f6-9d2b-fb52954ab099" />
 
 **A production-ready AI travel planner built with Google's Agent Development Kit (ADK)**
 **Live 24/7 | No installation required | Completely free**
